@@ -1,0 +1,17 @@
+login: &login
+  adapter: postgresql
+  encoding: unicode
+  pool: 5
+  username: postgres
+  database: postgres
+  password: sacrifice1
+
+development:
+  <<: *login
+
+test:
+  database: postgres
+  <<: *login
+
+production:
+  <<: *login

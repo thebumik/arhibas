@@ -1,0 +1,297 @@
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to InitialSchema (20091024121905)
+Migrating to CreateUsers (20091115221635)
+Migrating to AddSlugToPage (20091116125216)
+Migrating to CreateAssets (20091116205331)
+Migrating to AddRatingFieldsToProject (20091211123930)
+Migrating to CreateVotes (20091211124120)
+Migrating to CreateComments (20091211200652)
+Migrating to AddBodyAndInSidebarToProject (20091218183216)
+Migrating to AddSettingsTable (20100121102224)
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to InitialSchema (20091024121905)
+Migrating to CreateUsers (20091115221635)
+Migrating to AddSlugToPage (20091116125216)
+Migrating to CreateAssets (20091116205331)
+Migrating to AddRatingFieldsToProject (20091211123930)
+Migrating to CreateVotes (20091211124120)
+Migrating to CreateComments (20091211200652)
+Migrating to AddBodyAndInSidebarToProject (20091218183216)
+Migrating to AddSettingsTable (20100121102224)
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2014-10-09 11:23:30) [GET]
+
+ActionController::RoutingError (No route matches "/images/__project_eg.jpg" with {:method=>:get}):
+  <internal:prelude>:10:in `synchronize'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2014-10-09 11:23:30) [GET]
+
+ActionController::RoutingError (No route matches "/images/__project_eg_THUMB.jpg" with {:method=>:get}):
+  <internal:prelude>:10:in `synchronize'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2014-10-09 11:25:16) [GET]
+
+ActionController::RoutingError (No route matches "/images/__project_eg.jpg" with {:method=>:get}):
+  <internal:prelude>:10:in `synchronize'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2014-10-09 11:25:16) [GET]
+
+ActionController::RoutingError (No route matches "/images/__project_eg_THUMB.jpg" with {:method=>:get}):
+  <internal:prelude>:10:in `synchronize'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2014-10-09 11:25:36) [GET]
+
+ActionController::RoutingError (No route matches "/images/__project_eg.jpg" with {:method=>:get}):
+  <internal:prelude>:10:in `synchronize'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2014-10-09 11:25:36) [GET]
+
+ActionController::RoutingError (No route matches "/images/__project_eg_THUMB.jpg" with {:method=>:get}):
+  <internal:prelude>:10:in `synchronize'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2014-10-09 11:25:51) [GET]
+
+ActionController::RoutingError (No route matches "/images/__project_eg.jpg" with {:method=>:get}):
+  <internal:prelude>:10:in `synchronize'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2014-10-09 11:25:52) [GET]
+
+ActionController::RoutingError (No route matches "/images/__project_eg_THUMB.jpg" with {:method=>:get}):
+  <internal:prelude>:10:in `synchronize'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to InitialSchema (20091024121905)
+Migrating to CreateUsers (20091115221635)
+Migrating to AddSlugToPage (20091116125216)
+Migrating to CreateAssets (20091116205331)
+Migrating to AddRatingFieldsToProject (20091211123930)
+Migrating to CreateVotes (20091211124120)
+Migrating to CreateComments (20091211200652)
+Migrating to AddBodyAndInSidebarToProject (20091218183216)
+Migrating to AddSettingsTable (20100121102224)
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2014-10-09 11:26:20) [GET]
+
+ActionController::RoutingError (No route matches "/images/__project_eg.jpg" with {:method=>:get}):
+  <internal:prelude>:10:in `synchronize'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2014-10-09 11:26:20) [GET]
+
+ActionController::RoutingError (No route matches "/images/__project_eg_THUMB.jpg" with {:method=>:get}):
+  <internal:prelude>:10:in `synchronize'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing AdminController#index (for 127.0.0.1 at 2014-10-09 11:26:53) [GET]
+  Parameters: {"controller"=>"admin", "action"=>"index"}
+
+NoMethodError (undefined method `require_user' for #<AdminController:0x2dbcef8>):
+  <internal:prelude>:10:in `synchronize'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+Rendered rescues/_trace (7.0ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to InitialSchema (20091024121905)
+Migrating to CreateUsers (20091115221635)
+Migrating to AddSlugToPage (20091116125216)
+Migrating to CreateAssets (20091116205331)
+Migrating to AddRatingFieldsToProject (20091211123930)
+Migrating to CreateVotes (20091211124120)
+Migrating to CreateComments (20091211200652)
+Migrating to AddBodyAndInSidebarToProject (20091218183216)
+Migrating to AddSettingsTable (20100121102224)
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2014-10-09 12:21:46) [GET]
+
+ActionController::RoutingError (No route matches "/images/__project_eg_THUMB.jpg" with {:method=>:get}):
+  <internal:prelude>:10:in `synchronize'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2014-10-09 12:21:46) [GET]
+
+ActionController::RoutingError (No route matches "/images/__project_eg.jpg" with {:method=>:get}):
+  <internal:prelude>:10:in `synchronize'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2014-10-09 12:29:48) [GET]
+
+ActionController::RoutingError (No route matches "/images/__project_eg.jpg" with {:method=>:get}):
+  <internal:prelude>:10:in `synchronize'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2014-10-09 12:29:48) [GET]
+
+ActionController::RoutingError (No route matches "/images/__project_eg_THUMB.jpg" with {:method=>:get}):
+  <internal:prelude>:10:in `synchronize'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to InitialSchema (20091024121905)
+Migrating to CreateUsers (20091115221635)
+Migrating to AddSlugToPage (20091116125216)
+Migrating to CreateAssets (20091116205331)
+Migrating to AddRatingFieldsToProject (20091211123930)
+Migrating to CreateVotes (20091211124120)
+Migrating to CreateComments (20091211200652)
+Migrating to AddBodyAndInSidebarToProject (20091218183216)
+Migrating to AddSettingsTable (20100121102224)
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing ApplicationController#home (for 127.0.0.1 at 2014-10-09 15:31:06) [GET]
+  Parameters: {"locale"=>"ro"}
+
+LoadError (cannot load such file -- pages_helper.rb):
+  app/controllers/pages_controller.rb:1:in `<top (required)>'
+  <internal:prelude>:10:in `synchronize'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+Rendered rescues/_trace (7.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing ApplicationController#home (for 127.0.0.1 at 2014-10-09 15:31:31) [GET]
+  Parameters: {"locale"=>"ro"}
+
+LoadError (cannot load such file -- pages_helper.rb):
+  app/controllers/pages_controller.rb:1:in `<top (required)>'
+  <internal:prelude>:10:in `synchronize'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+Rendered rescues/_trace (7.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
